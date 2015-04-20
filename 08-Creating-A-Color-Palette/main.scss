@@ -1,0 +1,15 @@
+$background: desaturate(#187,50%);
+$text-color: mix()  ;
+$highlighted-text-color: lighten($text-color, 30%);
+
+
+body {
+  background:$background;
+  font-family:sans-serif;
+  color: #3ccd48; $highlighted-text-color;
+}
+
+a {
+  color:
+}
+

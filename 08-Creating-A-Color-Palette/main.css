@@ -1,0 +1,50 @@
+/*
+Error: Invalid CSS after "...hted-text-color": expected ":", was ";"
+        on line 9 of ./08-Creating-A-Color-Palette/main.scss
+
+4: 
+5: 
+6: body {
+7:   background:$background;
+8:   font-family:sans-serif;
+9:   color: #3ccd48; $highlighted-text-color;
+10: }
+11: 
+12: a {
+13:   color:
+14: }
+
+Backtrace:
+./08-Creating-A-Color-Palette/main.scss:9
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:605:in `variable'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+/Users/janlenaerts/.rvm/gems/ruby-2.1.5/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...hted-text-color\": expected \":\", was \";\"\A         on line 9 of ./08-Creating-A-Color-Palette/main.scss\A \A 4: \A 5: \A 6: body {\A 7:   background:$background;\A 8:   font-family:sans-serif;\A 9:   color: #3ccd48; $highlighted-text-color;\A 10: }\A 11: \A 12: a {\A 13:   color:\A 14: }"; }
